@@ -1,7 +1,7 @@
 # Viveo Challenge
 
 > This project was created for the Viveo Challenge and it consists of a fullstack system where the user can add or subtract and, in its final result, a +5 o -5 will be added/substracted depending on its symbol
-Yo use React/Javascript para el front-end y Node/Typescript para el backend.
+I used React/Javascript for the front-end and Node/Typescript for the back-end.
 > Created by Brian Luca Becci
 ## 1. Started ⌨️
 

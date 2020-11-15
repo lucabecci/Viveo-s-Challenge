@@ -79,6 +79,8 @@
  
  Complete the Documentation in README.md✅
 
+ Dockerize the app✅
+
 
  Finish steps✅
 
