@@ -1,0 +1,36 @@
+{
+  "name": "developer-challenge",
+  "version": "1.0.0",
+  "description": "Viveo Group Developer Challenge",
+  "scripts": {
+    "start": "node ./build/index.js",
+    "dev": "nodemon ./src/index.ts",
+    "build": "tsc",
+    "clean-code": "npx prettier --write src/* && npx eslint --fix src/*",
+    "test": "mocha -r ts-node/register src/test/**/*.test.ts"
+  },
+  "author": "Lucabecci",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.9",
+    "@types/mongoose": "^5.10.0",
+    "@types/morgan": "^1.9.2",
+    "@types/node": "^13.13.30",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2",
+    "ts-node-dev": "^1.0.0-pre.44"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.14",
+    "morgan": "^1.10.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
+}

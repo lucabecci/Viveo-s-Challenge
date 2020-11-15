@@ -1,0 +1,23 @@
+{
+  "name": "developmentchallenge",
+  "version": "1.0.0",
+  "description": "this is a project for the development challenge of viveo",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "clean-frontend": "cd frontend && npx prettier --write src/*",
+    "clean-backend": "cd backend && npx prettier --write src/*",
+    "clean-code": "npm run clean-frontend && npm run clean-backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucabecci/ViveoGroup-developmentChallenge.git"
+  },
+  "author": "lucabecci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucabecci/ViveoGroup-developmentChallenge/issues"
+  },
+  "homepage": "https://github.com/lucabecci/ViveoGroup-developmentChallenge#readme"
+}
