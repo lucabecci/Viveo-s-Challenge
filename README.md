@@ -9,7 +9,7 @@ for get the project you will use:
 
 ```tsx
 //PRIVATE
-git clone "https://github.com/lucabecci/ViveoGroup-developmentChallenge"
+git clone "https://github.com/lucabecci/Viveo-s-Challenge"
 //PRIVATE
 ```
 
@@ -20,6 +20,7 @@ You will need this requeriments for good rendiment:
 - Node.JS > 10.X
 - npm > 6.X
 - MongoDB
+- Docker(if you will run this project with Docker)
 
 ## 3. Installation 🔩
 
@@ -33,9 +34,6 @@ npm install //install the frontend dependencies.
 		and 
 cd backend//enter in the backend
 npm install //install the backend dependencies.
-npm run frontend //run the frontend
-		and
-npm run backend //run the backend
 
 With yarn:
 cd DevelopmentChallenge //we entered the directory.
@@ -44,8 +42,6 @@ yarn install //install the frontend dependencies.
 		and 
 cd backend//enter in the backend
 yarn install //install the backend dependencies.
-yarn run frontend //generate the prod code.
-yarn run backend //execute the prod code with node.
 ```
 
 ## 4. Use the project
@@ -67,6 +63,11 @@ Actually, there are two separated apps. The Client which serves the FrontEnd (us
 2. Run `npm install` to install all dependencies.
 3. Run `npm start` to start the app
 
+### How to run with Docker
+0. You need Docker and docker-compose.
+1. In your terminal, navigate to the main directory.
+2. Run `docker-compose up` to create the image.
+
 ## 5. Project structure 📁
 
 ### Main
@@ -77,6 +78,7 @@ Actually, there are two separated apps. The Client which serves the FrontEnd (us
 |-- .gitignore
 |-- .prettierrc
 |-- CHALLENGE.md
+|-- docker-compose.yml
 |-- package.json
 |-- README.md
 |-- STEPS.md
@@ -104,6 +106,8 @@ Actually, there are two separated apps. The Client which serves the FrontEnd (us
 		|-- index.routes.ts
 		|-- operation.routes.ts
 	|-- index.ts
+|-- .dockerignore
+|-- Dockerfile
 |-- .eslintrc
 |-- .gitignore
 |-- .prettierignore
@@ -136,6 +140,8 @@ Actually, there are two separated apps. The Client which serves the FrontEnd (us
 	|-- App.css
 	|-- index.js
 	|-- index.css
+|-- .dockerignore
+|-- Dockerfile
 |-- .gitignore
 |-- package.json
 |-- README.md
